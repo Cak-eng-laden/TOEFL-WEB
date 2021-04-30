@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/navigation.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" />
+    <title>TOEFL</title>
+  </head>
+
+  <!--Awal Navbar-->
+
+  <body id="page-top">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #e3f2fd">
+      <div class="container">
+        <!-- Navbar content -->
+        <div class="container-fluid">
+          <a class="navbar-brand navbar" style="color: #2699fb" href="#">FTO</a>
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav m-lg-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="home.html">Home</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="What is TOEFL.html">|&nbsp&nbsp&nbsp What is TOEFL? &nbsp&nbsp&nbsp|</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="tutorial.html">Tutorial&nbsp&nbsp&nbsp&nbsp|</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="about.html">About us&nbsp&nbsp&nbsp&nbsp|</a>
+
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+
+            <button type="button" class="btn btn-primary" style="width: 120px">Login</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!--Akhir Navbar-->
+
+    <section id home>
+      <div class="jumbotron text-center" style="background-color: white">
+        <h1 class="display-4">FREE!! TOEFL Test <br />Simulation Online</h1>
+        <p class="lead-1" style="font-size: 15px">Silahkan test skill anda disini untuk mengetahui nilai TOEFL anda!</p>
+        <a class="btn btn-primary center-block btn-lg" data-bs-toggle="modal" data-bs-target="#testModal" href="#" role="button">Test Simulation Now</a>
+
+        <!--Modal-->
+
+        <div class="modal fade" id="testModal" tabindex="-1" arialabelledby="modalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-primary">Dimohon mengisikan informasi pribadi sebelum melakukan test!</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+
+              <div class="modal-body">
+                <form>
+                  <div class="form-group mb-3x">
+                    <label>
+                      Fullname*
+                      <input type="text" name="fullname" class="form-control" />
+                    </label>
+                  </div>
+                  <div class="form-group mb-3">
+                    <label>
+                      Email Address*
+                      <input type="text" name="email" class="form-control" />
+                    </label>
+                  </div>
+                  <div class="form-group mb-3">
+                    <label>
+                      Mobile Phone Number*
+                      <input type="text" name="number" class="form-control" />
+                    </label>
+                  </div>
+                </form>
+              </div>
+
+              <div class="modal-footer">
+                <a href="welkam.html" class="btn btn-primary start-0">Start Test</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Akhir Jumbotron-->
+
+    <!--Akhir Jumbotron-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  </body>
+</html>
